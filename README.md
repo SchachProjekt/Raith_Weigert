@@ -1,2 +1,4 @@
-# schach
-schach
+# Schach Projekt
+Coder: Raith Sebastian, Felix Weigert
+
+
