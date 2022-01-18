@@ -1,6 +1,9 @@
 public class Pawn extends Figure{
-    @Override
-    public void canMove() {
-        super.canMove();
+    public Pawn(int px,int py){
+        type = 'B';
+        x = px;
+        y = py;
     }
+
+
 }

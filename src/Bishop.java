@@ -1,5 +1,8 @@
 public class Bishop extends Figure{
-    @Override public void canMove() {
-        super.canMove();
+    public Bishop(int px,int py){
+        type = 'L';
+        x = px;
+        y = py;
     }
+
 }

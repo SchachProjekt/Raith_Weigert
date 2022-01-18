@@ -1,6 +1,7 @@
 public class Queen extends Figure{
-    @Override
-    public void canMove() {
-        super.canMove();
+    public Queen(int px,int py){
+        type = 'D';
+        x = px;
+        y = py;
     }
 }

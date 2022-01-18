@@ -1,6 +1,8 @@
 public class King extends Figure{
-    @Override
-    public void canMove() {
-        super.canMove();
+    public King(int px,int py){
+        type = 'K';
+        x = px;
+        y = py;
     }
+
 }
