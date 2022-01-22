@@ -3,7 +3,8 @@ public class Pawn extends Figure{
         type = 'B';
         x = px;
         y = py;
+        team = 1;
     }
-
+    boolean hasMoved = false;
 
 }

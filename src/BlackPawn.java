@@ -3,6 +3,7 @@ public class BlackPawn extends Figure{//B = Unten
         type = 'B';
         x = px;
         y = py;
+        team = 2;
     }
     boolean hasmoved = false;
 
